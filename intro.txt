@@ -1,0 +1,12 @@
+                Welcome in TriCity Trolley Tour!
+
+In this extremely simple text-based game, You, my dear Player, will be driving
+an imaginary trolley traveling from station to station along the SKM railway
+line.
+
+Your journey begins on the Gdańsk Śródmieście station and the farthest train
+station you can arrive is Gdynia Główna.
+
+I highly believe that everything else will be self-explanatory.
+
+I wish you good luck and have nice trip!

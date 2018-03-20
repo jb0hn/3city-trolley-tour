@@ -1,4 +1,4 @@
-#3city-trolley-tour
+# 3city-trolley-tour
 
 Welcome in TriCity Trolley Tour!
 
@@ -9,4 +9,4 @@ line.
 The journey begins on the Gdańsk Śródmieście station and the farthest train
 station a player can arrive is Gdynia Główna.
 
-To be honest, the game isn't very enjoyable and was created while I was learning OOP in Python to present my actual skill level. 
+To be honest, the game isn't very enjoyable and was created while I was learning OOP in Python to present my actual skill level.

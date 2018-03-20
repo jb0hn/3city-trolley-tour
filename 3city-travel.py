@@ -1,4 +1,6 @@
-import os, csv
+import os
+import csv
+
 
 class Player(object):
     def __init__(self, name, position=0):
@@ -57,7 +59,7 @@ class Game(object):
     def travel(self):
         neighborhood = []
 
-        print("\nYou're actually in ", end='')
+        print("You're actually in ", end='')
         print(self.places[self.player.position], ".", sep='')
         print("\nYou can go to: ")
         for neighbor in self.places[self.player.position].neighbor_list:
@@ -71,19 +73,19 @@ class Game(object):
             if destination in neighborhood:
                 break
 
+        os.system("clear")
+
         for place in self.places:
             if destination == place.name:
                 new_position = self.places.index(place)
         self.player.change_position(new_position)
-        print("\nYou arrived:", self.places[self.player.position])
+        print("You arrived:", self.places[self.player.position])
 
     def play(self):
         self.what_neighbour()
         self.travel()
         self.places[self.player.position].neighbor_list.clear()
 
-# def name():
-#     return name
 
 def intro(name):
     with open("intro.txt", "r") as intro_file:
@@ -95,10 +97,10 @@ def intro(name):
     print("Hello ", name, "!", sep='')
     print(body)
 
+
 def main():
-    # TEMP: There'll be a introduction
-    # name = name()
-    name = input("\nWhats your name?: ")
+    os.system("clear")
+    name = input("Whats your name?: ")
     os.system("clear")
     intro(name)
     game = Game(name)
@@ -107,7 +109,8 @@ def main():
     while again != "n":
         game.play()
         again = input("\nDo you still want to travel? [Y/N]: ")
+        os.system("clear")
 
 
 main()
-input("\n\nTo exit, press Enter.")
+input("To exit, press Enter.")

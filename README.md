@@ -9,14 +9,14 @@ station a player can arrive is Gdynia Główna.
 
 To be honest, the game isn't very enjoyable and was created while I was learning OOP in Python, to present my actual skill level.
 
-To run on GNU/Linux, open the Terminal and paste:
+**To run on GNU/Linux, open the Terminal and paste:**
 
     cd /path/to/the/game/folder
 
     python3 3city-travel.py
 
 
-To run on Windows, open Command Prompt (cmd.exe) and paste:
+**To run on Windows, open Command Prompt (cmd.exe) and paste:**
 
     cd /path/to/the/game/folder
 

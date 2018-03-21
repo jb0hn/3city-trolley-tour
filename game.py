@@ -91,7 +91,6 @@ def intro(name):
     with open("intro.txt", "r") as intro_file:
         header = intro_file.readline()
         body = intro_file.read()
-    intro_file.close()
 
     print(header)
     print("Hello ", name, "!", sep='')

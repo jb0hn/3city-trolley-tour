@@ -66,14 +66,14 @@ class Game(object):
             print(" -> ", neighbor, sep='')
 
         while True:
-            destination = input("\nWhere do you wanna to go?: ")
+            destination = input("\nWhere do you wanna go?: ")
             for neighbor in self.places[self.player.position].neighbor_list:
                 neighborhood.append(neighbor.name)
 
             if destination in neighborhood:
                 break
 
-        os.system("clear")
+        os.system('cls' if os.name == 'nt' else 'clear')
 
         for place in self.places:
             if destination == place.name:
@@ -99,9 +99,9 @@ def intro(name):
 
 
 def main():
-    os.system("clear")
+    os.system('cls' if os.name == 'nt' else 'clear')
     name = input("Whats your name?: ")
-    os.system("clear")
+    os.system('cls' if os.name == 'nt' else 'clear')
     intro(name)
     game = Game(name)
 
@@ -109,7 +109,7 @@ def main():
     while again != "n":
         game.play()
         again = input("\nDo you still want to travel? [Y/N]: ")
-        os.system("clear")
+        os.system('cls' if os.name == 'nt' else 'clear')
 
 
 main()

@@ -7,8 +7,11 @@ line.
 The journey begins on the Gdańsk Śródmieście station and the farthest train
 station a player can arrive is Gdynia Główna.
 
-To be honest, the game isn't very enjoyable and was created while I was learning OOP in Python, to present my actual skill level.
+## Quick run in the browser:
+https://3city-trolley-tour.jb0hn.repl.run
 
+
+## Local Installation
 **To run on GNU/Linux, open the Terminal and paste:**
 
     cd /path/to/the/game/folder
@@ -23,4 +26,4 @@ To be honest, the game isn't very enjoyable and was created while I was learning
     python game.py
 
 
-The game was tested on GNU/Linux (Ubuntu 16.04.2 with Python 3.5.2) and Windows (Windows 10 with Python 3.6.4).
+The game was tested on GNU/Linux (Ubuntu 16.04.2 with Python 3.5.2), Windows (Windows 10 with Python 3.6.4) and .

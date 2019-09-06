@@ -55,6 +55,9 @@ class Game(object):
 
             if destination in neighborhood:
                 break
+            else:
+                print(
+                    "There's no station like that. Please make sure you enter the correct station name.")
 
         os.system('cls' if os.name == 'nt' else 'clear')
 

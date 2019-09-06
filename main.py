@@ -59,14 +59,14 @@ class Game(object):
     def travel(self):
         neighborhood = []
 
-        print("You're actually in ", end='')
+        print("You're currently in ", end='')
         print(self.places[self.player.position], ".", sep='')
         print("\nYou can go to: ")
         for neighbor in self.places[self.player.position].neighbor_list:
             print(" -> ", neighbor, sep='')
 
         while True:
-            destination = input("\nWhere do you wanna go?: ")
+            destination = input("\nWhere do you want to go?: ")
             for neighbor in self.places[self.player.position].neighbor_list:
                 neighborhood.append(neighbor.name)
 
